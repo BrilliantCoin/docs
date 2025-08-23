@@ -1,0 +1,33 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background with subtle pinstripes -->
+  <rect width="800" height="300" fill="white"/>
+  
+  <!-- Subtle vertical pinstripes -->
+  <defs>
+    <pattern id="pinstripes" patternUnits="userSpaceOnUse" width="20" height="300">
+      <line x1="10" y1="0" x2="10" y2="300" stroke="#f0f0f0" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="300" fill="url(#pinstripes)"/>
+  
+  <!-- BASE logo circle with horizontal line (larger) -->
+  <circle cx="150" cy="100" r="40" fill="#0066FF"/>
+  <line x1="110" y1="100" x2="190" y2="100" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- BASE text -->
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0066FF">BASE</text>
+  
+  <!-- brilliant text in custom style (larger) -->
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="#0066FF">brilliant</text>
+  
+  <!-- brilliant.money domain -->
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="middle" fill="#0066FF">brilliant.money</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#666666">Revolutionary cryptocurrency with innovative earning mechanics</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="650" cy="80" r="15" fill="#0066FF" opacity="0.1"/>
+  <circle cx="680" cy="120" r="10" fill="#0066FF" opacity="0.1"/>
+  <circle cx="620" cy="150" r="12" fill="#0066FF" opacity="0.1"/>
+</svg>
