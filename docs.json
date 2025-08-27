@@ -1,75 +1,27 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
   "name": "Brilliant Coin",
+  "theme": "mint",
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "favicon": "/favicon.ico",
   "colors": {
     "primary": "#0066FF",
     "light": "#4D94FF",
     "dark": "#0047B3"
   },
-  "favicon": "/favicon.ico",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Documentation",
-        "groups": [
-          {
-            "group": "OVERVIEW",
-            "pages": [
-              "index",
-              "brilliant-mechanics",
-              "tokenomics"
-            ]
-          },
-          {
-            "group": "PRODUCT GUIDES",
-            "pages": [
-              "how-to-start-earning",
-              "referrals",
-              "faqs"
-            ]
-          },
-          {
-            "group": "PROTOCOL",
-            "pages": [
-              "contracts",
-              "audit",
-              "assets"
-            ]
-          },
-          {
-            "group": "OFFICIAL LINKS",
-            "pages": [
-              "website",
-              "x",
-              "telegram"
-            ]
-          }
-        ]
-      }
+    "pages": [
+      "index",
+      "brilliant-mechanics", 
+      "tokenomics",
+      "how-to-start-earning",
+      "referrals",
+      "faqs",
+      "contracts",
+      "audit",
+      "assets"
     ]
-  },
-  "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/dark.png"
-  },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "https://brilliant.money"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   }
 }
