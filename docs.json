@@ -11,37 +11,17 @@
     "light": "#4D94FF",
     "dark": "#0047B3"
   },
-  "navigation": [
-    {
-      "group": "Documentation",
-      "pages": [
-        "index",
-        "brilliant-mechanics", 
-        "tokenomics",
-        "how-to-start-earning",
-        "referrals",
-        "faqs",
-        "contracts",
-        "audit",
-        "assets"
-      ]
-    },
-    {
-      "group": "External Links",
-      "pages": [
-        {
-          "name": "🌐 Website",
-          "url": "https://brilliant.money"
-        },
-        {
-          "name": "🐦 X (Twitter)",
-          "url": "https://x.com/Brilliant_Coin"
-        },
-        {
-          "name": "📱 Telegram",
-          "url": "https://t.me/BrilliantCoinPortal"
-        }
-      ]
-    }
-  ]
+  "navigation": {
+    "pages": [
+      "index",
+      "brilliant-mechanics", 
+      "tokenomics",
+      "how-to-start-earning",
+      "referrals",
+      "faqs",
+      "contracts",
+      "audit",
+      "assets"
+    ]
+  }
 }
