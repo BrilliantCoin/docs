@@ -23,5 +23,22 @@
       "audit",
       "assets"
     ]
-  }
+  },
+  "anchors": [
+    {
+      "name": "Website",
+      "icon": "globe",
+      "url": "https://brilliant.money"
+    },
+    {
+      "name": "X (Twitter)",
+      "icon": "twitter",
+      "url": "https://x.com/Brilliant_Coin"
+    },
+    {
+      "name": "Telegram",
+      "icon": "telegram",
+      "url": "https://t.me/BrilliantCoinPortal"
+    }
+  ]
 }
